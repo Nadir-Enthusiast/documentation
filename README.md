@@ -1,3 +1,3 @@
 # Documentation
 Vanilla JavaScript project
-## Edit things however you want
+## Tech-Stack: JS, HTML/CSS
