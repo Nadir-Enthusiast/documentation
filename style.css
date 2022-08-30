@@ -1,11 +1,20 @@
+:root {
+  --min-blur-shadow: 1vh;
+}
+
 html,
 body {
   min-width: 300px;
-  color: #0d2b24;
-  background-color: #afded3;
+  color: black;
+  background-color:white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
 }
 
 header {
@@ -33,7 +42,7 @@ h2 {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgb(170, 227, 255);
+  background-color:white;
   overflow-x: hidden;
   padding-top: 16px;
 }
@@ -42,7 +51,7 @@ h2 {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #818181;
+  color: black;
   display: block;
 }
 
@@ -51,7 +60,7 @@ h2 {
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color: blue;
 }
 
 .main {
@@ -136,4 +145,90 @@ code {
     padding-right: 45px;
     min-width: 233px;
   }
+}
+
+.footer{
+  height: 40vh;
+  width:auto;
+  min-width: 300px;
+  color: #3a3a3a;
+  text-shadow: 0.5vh 0.5vh var(--min-blur-shadow) #e1e1e1, 
+               -0.5vh 0.5vh var(--min-blur-shadow) #e1e1e1,
+               0.5vh -0.5vh var(--min-blur-shadow) #e1e1e1,
+               -0.5vh -0.5vh var(--min-blur-shadow) #e1e1e1;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(#365480, #8fb7fc, #b7def2);
+}
+
+.tabf{
+  color: #21ad05;
+}
+.bt{
+  margin-left: 1030px;
+}
+.mark{
+  color: darkblue;
+  background-color: black;
+
+}
+.end{
+  text-align: center;
+  font-size: 25px;
+  color:gainsboro;
+}
+
+.nav-table {
+  background-color: #383838;
+  border: 5px solid #ababab;
+  border-style: outset;
+}
+
+.nav-table tr td {
+  padding: 6px;
+  background-color: #21ad05;
+}
+
+.Navi{
+  color: rgb(57, 10, 101);
+  text-align: center;
+  font-size: 25px;
+  font-family: fantasy;
+}
+.watch{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.centered {
+  text-align: center;
+}
+
+.horizontal-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+#clock {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 1vw;
+  font-size: 2vh;
+}
+
+.no-dot {
+  padding: 0;
+  list-style: none;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: row;
+}
+
+.centered {
+  text-align: center;
+}
+
+.evenly {
+  justify-content: space-evenly;
 }
