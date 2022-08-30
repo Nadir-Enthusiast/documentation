@@ -10,8 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- STYLING -->
     <link rel="stylesheet" href="style.css" />
+    <!--Photo -->
+    <link rel="stylesheet" href="photo/javasc.jpg">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
+  
     <!-- LEFT SIDEBAR -->
     <div class="sidebar">
       <div class="title-container">
@@ -105,7 +110,78 @@
         </div>
       </div>
     </div>
+    <!-- End of sidebar -->
     <main class="main">
+
+      <!--Navigation-->
+      <h2 class="centered">Navigation</h2>
+      <div class="horizontal-flex">
+        <h3>Local time:</h3>
+        <p id="clock" class="watch"></p>
+      </div>
+      <table class="nav-table">
+
+        <tr>
+          <td> 
+            <a class="nav-link" href="#Introduction">Introduction</a>
+          </td>
+
+          <td> 
+            <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+          </td>
+          
+          <td>
+            <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
+          </td>
+      
+          <td>  
+            <a class="nav-link" href="#Hello_world">Hello world</a>
+          </td>
+      
+          <td>
+            <a class="nav-link" href="#Variables">Variables</a>
+          </td>
+      
+          <td>
+            <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
+          </td>
+      
+          <td> 
+            <a class="nav-link" href="#Variable_scope">Variable scope</a>
+          </td>
+        </tr>
+        
+        <tr>
+          <td> 
+            <a class="nav-link" href="#Global_variables">Global variables</a>
+          </td>
+
+          <td> 
+            <a class="nav-link" href="#Constants">Constants</a>
+          </td>
+      
+          <td> 
+            <a class="nav-link" href="#Data_types">Data types</a>
+          </td>
+      
+          <td>
+            <a class="nav-link" href="#if...else_statement">if...else statement</a>
+          </td>
+      
+          <td>
+            <a class="nav-link" href="#while_statement">while statement</a>
+          </td>
+      
+          <td> 
+            <a class="nav-link" href="#Function_declarations">Function declarations</a>
+          </td>
+      
+          <td> 
+            <a class="nav-link" href="#Reference">Reference</a>
+          </td>
+        </tr>
+      </table>
+
       <section class="main-section" id="Introduction">
         <header>Introduction</header>
         <article>
@@ -487,20 +563,29 @@
         </article>
       </section>
       <section class="main-section" id="Reference">
-        <header>Reference</header>
-        <article>
-          <ul>
-            <li>
-              All the documentation in this page is taken from
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                target="_blank"
-                >MDN</a
-              >
-            </li>
+        <hr>
+        <header>Thanks for your time!</header>
+        <!--Footer-->
+        <footer class="footer">
+          <h5 class="centered">Reference</h5>
+          <p class="centered">All the documentation in this page is taken from
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+              target="_blank"
+              >MDN</a
+            >
+          </p>
+          <h4 class="centered">Contact</h4>
+          <ul class="no-dot vertical evenly">
+            <li>E-mail: test@gmail.com</li>
+            <li>Phone: +1 (234) 567-8900</li>
+            <li>LinkedIn</li>
+            <li>Twitter</li>
           </ul>
-        </article>
+          <h5 class="centered">Copyright ... All rights reserved. 2022. Mountain View, San Francisco, CA</h5>
+        </footer>
       </section>
     </main>
+    <script src="app.js"></script>
   </body>
 </html>
